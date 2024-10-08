@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist | When Banking meets Minimalist</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+        <script defer  src="script.js"></script>
+
+  </head>
+  <body class="relative">
+    <!-- pop-up and overlay starts -->
+     <div class="overlay absolute width-full smooth-fading smooth-hide "  ></div>
+     <div class="pop-up bg-white smooth-fading smooth-hide "> 
+      <button class="pop-up__close-btn  absolute pointer f-c-all">&times;</button>
+      <h2 class="pop-up__title mb-50">Open your bank account
+        in just <span class="highlighted-word relative">5 minutes</span> </h2>
+        <form class="pop-up__form m-x-auto-all">
+          <div class="pop-up__form-group mb-20 ">
+            <label class="pop-up__label weight-500 block pop-up__label--large-space" >First Name</label>
+            <input type="text" class="pop-up__field">
+          </div>
+          <div class="pop-up__form-group mb-20 ">
+            <label class="pop-up__label weight-500 block pop-up__label--large-space" >Last Name</label>
+            <input type="text" class="pop-up__field">
+          </div>
+          <div class="pop-up__form-group mb-30 ">
+            <label class="pop-up__label weight-500 block pop-up__label--small-space" >Email Address</label>
+            <input type="email" class="pop-up__field">
+          </div>
+          <button class="pop-up__form-btn pointer block bg-primary height-40 m-x-auto-all smooth-shadow">Next step &rarr;</button>
+        </form>
+     </div>
+    <!-- pop-up and overlay ends -->
+    <!-- Header starts -->
+    <header class="header relative f-c-all ">
+      <img src="img/logo.png"   alt="website logo" class="header__logo header-smooth-fading" />
+      <div class="header__right-section flex">
+        <nav class="header__nav-container">
+          <ul class="header__nav-list flex-between-center absolute smooth-fading smooth-hide">
+            <li class="header__nav-item text-center header__nav-item--white-border">
+              <a  href="#fet-sec" class="header__link block color-white header-smooth-fading " >Features</a>
+            </li>
+            <li class="header__nav-item text-center header__nav-item--white-border">
+              <a href="#oper-sec" class="header__link block  color-white header-smooth-fading ">Operations</a>
+            </li>
+            <li class="header__nav-item text-center">
+              <a href="#testi-sec" class="header__link  block color-white header-smooth-fading ">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__btn  pointer bg-primary smooth-shadow header-smooth-fading">Open account</button>
+        <i class="fa-solid fa-bars header__icon pointer"></i>
+      </div>
+    </header>
+    <!-- Header ends -->
+    <!--Welcome section starts -->
+    <section class="wlc-sec sec-top-padding">
+      <div
+        class="wlc-sec__content flex-between-center text-center text-start margin-x-auto"
+      >
+        <div class="wlc-sec__text">
+          <h1 class="wlc-sec__title mb-20" >
+            When <span class="highlighted-word relative">banking</span> meets
+            <span class="highlighted-word relative">minimalist</span>
+          </h1>
+          <p class="wlc-sec__info mb-20">
+            A simpler banking experience for a simpler life.
+          </p>
+          <a href="" class="wlc-sec__link weight-500">Learn more ↓</a>
+        </div>
+        <img src="img/hero.png" alt="" class="wlc-sec__img" />
+      </div>
+    </section>
+    <!--Welcome section ends -->
+    <!-- Features section starts -->
+    <section class="fet-sec section sec-border sec-padding sec-transition smooth-arrving " id="fet-sec">
+      <div class="sec-title text-center text-start margin-x-auto">
+        <h3 class="sec-title__primary ">FEATURES</h3>
+        <p class="sec-title__secondary">
+          Everything you need in a modern bank and more.
+        </p>
+      </div>
+      <div class="fet-sec__container">
+        <div
+          class="fet-sec__row text-center text-start flex-between-center mb-50 margin-x-auto"
+        >
+          <div class="fet-sec__row-text mb-20 fet-sec__row-text--space-right">
+            <div class="fet-sec__icon-container mb-30 f-c-all m-x-auto-all border-radius-50">
+              <svg class="fet-sec__icon">
+                <use xlink:href="img/icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <h3 class="fet-sec__info-title mb-30">100% digital bank</h3>
+            <p class="fet-sec__info line-height-2 color-gray">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              alias sint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </p>
+          </div>
+          <img
+            src="img/digital-lazy.jpg"
+            data-src="img/digital.jpg"
+            alt="our digital bank website "
+            class="fet-sec__row-img fet-sec__row-img--blur  hidden fet-sec__row-img--reverse"
+          />
+        </div>
+        <div
+          class="fet-sec__row text-center text-start flex-between-center mb-50 margin-x-auto"
+        >
+          <div class="fet-sec__row-text fet-sec__row-text--space-left">
+            <div class="fet-sec__icon-container f-c-all m-x-auto-all border-radius-50">
+              <svg class="fet-sec__icon">
+                <use xlink:href="img/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h3 class="fet-sec__info-title  mb-30">Watch your money grow</h3>
+            <p class="fet-sec__info color-gray line-height-2">
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam!
+            </p>
+          </div>
+          <img
+            src="img/grow-lazy.jpg"
+            data-src="img/grow.jpg"
+            alt=""
+            class="fet-sec__row-img fet-sec__row-img--blur  hidden"
+          />
+        </div>
+        <div
+          class="fet-sec__row text-center text-start flex-between-center margin-x-auto"
+        >
+          <div class="fet-sec__row-text fet-sec__row-text--space-right">
+            <div class="fet-sec__icon-container f-c-all m-x-auto-all border-radius-50">
+              <svg class="fet-sec__icon">
+                <use xlink:href="img/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+
+            <h3 class="fet-sec__info-title  mb-30">Free debit card included</h3>
+            <p class="fet-sec__info line-height-2  color-gray">
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+          <img
+            src="img/card-lazy.jpg"
+            data-src="img/card.jpg"
+            alt="our bank credit card "
+            class="fet-sec__row-img fet-sec__row-img--blur  hidden fet-sec__row-img--reverse"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section ends -->
+    <!-- Operations section starts -->
+    <section class="oper-sec section sec-border sec-padding sec-transition smooth-arrving" id="oper-sec">
+      <div class="sec-title text-center text-start  margin-x-auto">
+        <h3 class="sec-title__primary">OPERATIONS</h3>
+        <p class="sec-title__secondary">
+          Everything as simple as possible, but no simpler.
+        </p>
+      </div>
+      <div class="oper-sec__oper-container relative margin-x-auto bg-white">
+        <div class="oper-sec__btns-container absolute width-full">
+          <button
+            class="oper-sec__btn pointer height-40 height-40 weight-500 smooth-shadow oper-sec__btn--yellow oper-sec__btn--selected" data-tap="1"
+          >
+            01 Instant Transfers
+          </button>
+          <button class="oper-sec__btn height-40 pointer weight-500 smooth-shadow  bg-primary" data-tap="2">
+            02 Instant Loans
+          </button>
+          <button class="oper-sec__btn height-40 pointer weight-500 smooth-shadow oper-sec__btn--red" data-tap="3">
+            03 Instant Closing
+          </button>
+        </div>
+        <div class="oper-sec__oper-info tap-1 flex">
+          <div class="oper-sec__icon-container f-c-all mb-20 m-x-auto-all border-radius-50 oper-sec__icon-containe--yellow">
+            <svg class="oper-sec__icon">
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <div class="oper-sec__info-text text-center text-start">
+            <h3 class="oper-sec__oper-title mb-20">
+              Tranfser money to anyone, instantly! No fees, no BS.
+            </h3>
+            <p class="oper-sec__oper-desc line-height-2 color-gray">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="oper-sec__oper-info tap-2 flex hidden ">
+          <div class="oper-sec__icon-container f-c-all mb-20 m-x-auto-all border-radius-50 oper-sec__icon-containe--green">
+            <svg class="oper-sec__icon">
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <div class="oper-sec__info-text text-center text-start">
+            <h3 class="oper-sec__oper-title mb-20">
+              Buy a home or make your dreams come true, with instant loans.
+            </h3>
+            <p class="oper-sec__oper-desc line-height-2 color-gray">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div class="oper-sec__oper-info tap-3 flex hidden">
+          <div class="oper-sec__icon-container f-c-all mb-20 m-x-auto-all border-radius-50 oper-sec__icon-containe--red">
+            <svg class="oper-sec__icon">
+              <use xlink:href="img/icons.svg#icon-user-x""></use>
+            </svg>
+          </div>
+          <div class="oper-sec__info-text text-center text-start">
+            <h3 class="oper-sec__oper-title mb-20">
+              No longer need your account? No problem! Close it instantly
+            </h3>
+            <p class="oper-sec__oper-desc line-height-2 color-gray">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Operations section ends -->
+    <!-- Testimonials starts -->
+    <section class="testi-sec section sec-border sec-padding sec-transition smooth-arrving" id="testi-sec">
+      <div class="sec-title text-center text-start margin-x-auto">
+        <h3 class="sec-title__primary">NOT SURE YET?</h3>
+        <p class="sec-title__secondary">
+          Millions of Bankists are already making their lifes simpler
+        </p>
+      </div>
+      <div class="testi-sec__testi-container  relative">
+        <button class="testi-sec__arrow absolute pointer height-40 border-radius-50 bg-white testi-sec__btn--left-dir">&#8592</button>
+        <button class="testi-sec__arrow  absolute pointer height-40 border-radius-50 bg-white testi-sec__btn--right-dir">&#8594</button>
+        <div class="testi-sec__testimonial text-center text-start m-x-auto-all   ">
+          <h3 class="testi-sec__testi-title  mb-30  relative m-x-auto-all">Best financial decision ever!</h3>
+          <p class="testi-sec__testi-content  mb-30 line-height-2   color-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.</p>
+          <div class="testi-sec__teller-info flex">
+            <img src="img/user-1.jpg" alt="teller appearance" class="testi-sec__teller-img mb-20 border-radius-50">
+            <div class="testi-sec__text-info">
+              <h3 class="testi-sec__teller-name mb-20">Aarav Lynn</h3>
+              <span class="testi-sec__teller-location">San Francisco, USA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-sec__testimonial  text-center text-start  m-x-auto-all  absolute testi-sec__testimonial--top">
+          <h3 class="testi-sec__testi-title  mb-30  relative m-x-auto-all">The last step to becoming a complete minimalist</h3>
+          <p class="testi-sec__testi-content  mb-30 line-height-2   color-gray">Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque ipsam modi voluptatibus doloremque, corrupti laborum. Incidunt numquam perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt exercitationem deleniti.</p>
+          <div class="testi-sec__teller-info flex">
+            <img src="img/user-2.jpg" alt="teller appearance" class="testi-sec__teller-img mb-20 border-radius-50">
+            <div class="testi-sec__text-info">
+              <h3 class="testi-sec__teller-name mb-20">Cole Palmer</h3>
+              <span class="testi-sec__teller-location">London, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-sec__testimonial text-center text-start m-x-auto-all  absolute testi-sec__testimonial--top ">
+          <h3 class="testi-sec__testi-title  mb-30  relative m-x-auto-all">Finally free from old-school banks</h3>
+          <p class="testi-sec__testi-content  mb-30 line-height-2   color-gray">Debitis, nihil sit minus suscipit magni aperiam vel tenetur incidunt commodi architecto numquam omnis nulla autem, necessitatibus blanditiis modi similique quidem. Odio aliquam culpa dicta beatae quod maiores ipsa minus consequatur error sunt, deleniti saepe aliquid quos inventore sequi. Necessitatibus id alias reiciendis, perferendis facere.</p>
+          <div class="testi-sec__teller-info flex">
+            <img src="img/user-3.jpg" alt="teller appearance" class="testi-sec__teller-img mb-20 border-radius-50">
+            <div class="testi-sec__text-info">
+              <h3 class="testi-sec__teller-name mb-20">Francisco Gomes</h3>
+              <span class="testi-sec__teller-location">Lisbon, Portugal</span>
+            </div>
+          </div>
+        </div>
+        <ul class="testi-sec__nav-bullets hidden margin-x-auto ">
+        
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonials ends -->
+     <!-- Footer starts -->
+      <footer class="footer section sec-transition smooth-arrving">
+        <div class="footer__top margin-x-auto">
+          <h2 class="footer__title text-center mb-50 color-white">The best day to join Bankist was one year ago. The second best is today!</h2>
+          <button class="footer__btn   pointer weight-500 m-x-auto-all bg-primary smooth-shadow block">Open your free account today</button>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-content text-center">
+            <nav class="footer__nav-container mb-30">
+              <ul class="footer__nav-list  m-x-auto-all  ">
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">About</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Pricing</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Terms of Use</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Privacy Policy</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Careers</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Blog</a></li>
+                <li class="footer__nav-item"><a href=""  class="footer__nav-link">Contact Us</a></li>
+              </ul>
+            </nav>
+            <img src="img/icon.png" alt="website logo" class="footer__logo mb-30">
+            <p class="footer__copy-right color-gray">© Copyright by <a href="https://x.com/jonasschmedtman" target="_blank" class="footer__word color-white"> Jonas Schmedtmann.</a> Use for learning or your portfolio. Don't use to teach. Don't claim as your own product.</p>
+          </div>
+        </div>
+      </footer>
+     <!-- Footer ends -->
+  </body>
+</html>
